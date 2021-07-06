@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 
 const Footer = ({ handleIndex }) => {
   return (
-    <footer class='foot' role='contentinfo'>
-      <div class='wrap clearfix'>
-        <div class='row'>
-          <div class='bottom'>
-            <p class='copy'>Copyright 2021. All rights reserved</p>
+    <footer className='foot' role='contentinfo'>
+      <div className='wrap clearfix'>
+        <div className='row'>
+          <div className='bottom'>
+            <p className='copy'>Copyright 2021. All rights reserved</p>
 
-            <nav class='foot-nav'>
+            <nav className='foot-nav'>
               <ul>
                 <li>
                   <Link
