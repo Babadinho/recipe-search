@@ -6,7 +6,7 @@ const Recipe = ({ recipe, handleDetails }) => {
     recipe;
   return (
     <Fragment>
-      <div className='col-10 mx-auto col-md-6 col-lg-3 my-3'>
+      <div className='mx-auto col-md-6 col-lg-3 my-3'>
         <div className='card'>
           <img
             src={image_url}
