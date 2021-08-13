@@ -25,7 +25,7 @@ const RecipeSearch = ({
                 <input
                   type='text'
                   name='search'
-                  placeholder='enter a term to search for the recipe'
+                  placeholder='Search for a recipe'
                   className='form-control shadow-none'
                   value={search}
                   onChange={handleChange}

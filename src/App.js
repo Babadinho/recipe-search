@@ -57,7 +57,7 @@ const App = () => {
   useEffect(() => {
     getRecipes();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [string]);
 
   const handleIndex = (index) => {
     setData({ ...data, pageIndex: index });
@@ -108,11 +108,6 @@ const App = () => {
       suggestions: [],
     });
   };
-
-  useEffect(() => {
-    getRecipes();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [string]);
 
   return (
     <BrowserRouter>

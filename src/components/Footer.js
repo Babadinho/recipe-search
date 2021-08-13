@@ -3,36 +3,21 @@ import { Link } from 'react-router-dom';
 
 const Footer = ({ handleIndex }) => {
   return (
-    <footer className='foot' role='contentinfo'>
-      <div className='wrap clearfix'>
-        <div className='row'>
-          <div className='bottom'>
-            <p className='copy'>Copyright 2021. All rights reserved</p>
-
-            <nav className='foot-nav'>
-              <ul>
-                <li>
-                  <Link
-                    to='/'
-                    title='Home'
-                    className='text-decoration-none'
-                    onClick={() => handleIndex(1)}
-                  >
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to='contact'
-                    title='Contact'
-                    className='text-decoration-none'
-                  >
-                    Contact
-                  </Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
+    <footer className='foot container-fluid'>
+      <div className='d-flex justify-content-center'>
+        <div className='bottom'>
+          <p className='copy'>
+            Copyright 2021. All rights reserved. Made with{' '}
+            <i class='fas fa-heart text-danger'></i> by{' '}
+            <strong>
+              <a
+                href='https://github.com/Babadinho'
+                className='text-decoration-none'
+              >
+                Babadinho
+              </a>
+            </strong>
+          </p>
         </div>
       </div>
     </footer>
